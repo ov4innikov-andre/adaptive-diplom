@@ -52,6 +52,7 @@ body {
   justify-content: space-between;
   align-items: center;
   margin: 0 auto;
+  padding:0 15px;
 }
 
 .nav {
@@ -65,6 +66,10 @@ body {
 .nav li {
   margin: 33px;
 }
+
+.nav li:nth-last-child(1) {
+   margin-right: 0;
+  }
 
 .nav a {
   color: #fff;
@@ -1001,9 +1006,13 @@ sup {
     flex-wrap: wrap;
     max-width: 640px;
   }
-
+  
+  .search label {
+	width:100%;
+  }
+  
   .field {
-    width: 280px;
+    width: 100%;
   }
 
   .store {
