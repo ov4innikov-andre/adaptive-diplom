@@ -876,7 +876,7 @@ sup {
 	padding: 40px 15px 120px;
   }
 
-.heading {margin-top: 33px;}
+.heading {margin-top: 83px;}
   .logo_mob {
     display: none;
   }
@@ -926,7 +926,7 @@ h1 {
   }
   
   .post h2 {margin: 10px 0 25px 0; font-size: 18px;}
-.post item {margin-top: 57px;}
+.post_item {margin-top: 57px;}
   .article {
     flex-wrap: wrap;
     border-bottom: 2px solid #eeeeee;
