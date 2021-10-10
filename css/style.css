@@ -30,7 +30,7 @@ body {
   color: #fff;
   z-index: 0;
   position: relative;
-  padding: 36px 15px 147px;
+  padding: 27px 15px 118px;
 }
 
 .header::after {
@@ -64,7 +64,7 @@ body {
 }
 
 .nav li {
-  margin: 33px;
+  margin: 0px 18px 0 17px;
 }
 
 .nav li:nth-last-child(1) {
@@ -86,7 +86,12 @@ body {
   font-weight: bold;
   text-transform: uppercase;
   margin: auto;
-  margin-top: 128px;
+  margin-top: 100px;
+}
+
+h1 {
+   font-size:44px;
+   line-height: 1.7em;
 }
 
 .trend h2 {
@@ -97,8 +102,8 @@ body {
 
 .trend_title {
   text-align: center;
-  margin-bottom: 40px;
-  margin-top: 63px;
+  margin-bottom: 28px;
+  margin-top: 64px;
 }
 
 .trend_title::after {
@@ -159,7 +164,7 @@ body {
 
 .post_item {
   border: 3px solid #786e47;
-  padding: 8%;
+  padding: 32px 30px 28px;
 }
 
 .meta_item {
@@ -177,7 +182,6 @@ body {
   text-decoration: none;
   font-weight: bold;
   text-transform: uppercase;
-
   font-size: 14px;
 }
 
@@ -186,7 +190,7 @@ body {
 }
 
 .item_title {
-  margin-top: 15px;
+  /* margin-top: 15px; */
 }
 
 .item_title a {
@@ -199,7 +203,7 @@ body {
 }
 
 .content {
-  padding: 64px 15px 0px 15px;
+  padding: 58px 15px 0px 15px;
   margin: 0 auto;
   display: flex;
   justify-content: space-between;
@@ -253,7 +257,7 @@ body {
   font-weight: bold;
   font-size: 20px;
   line-height: 1.2;
-  margin: 13px 0 30px 0;
+  margin: 7px 0 26px 0;
 }
 
 .post h2 a {
@@ -289,7 +293,7 @@ body {
   font-weight: bold;
   text-transform: uppercase;
   text-align: center;
-  margin-bottom: 40px;
+  margin-bottom: 19px;
 }
 
 .aside-title::after {
@@ -304,7 +308,7 @@ body {
 
 .new-article {
   display: flex;
-  margin-bottom: 21px;
+  margin-bottom: 24px;
 }
 
 .new-article img {
@@ -332,13 +336,13 @@ body {
 
 h4 {
   font-size: 14px;
-  line-height: 1.2;
+  line-height: 1.6;
   font-weight: bold;
 }
 
 .search {
   display: flex;
-  margin: 41px 0 62px 0;
+  margin: 53px 0 56px 0;
   font-size: 13px;
 }
 
@@ -433,7 +437,7 @@ h4 {
   font-weight: bold;
   font-size: 12px;
   border: 3px solid #eeeeee;
-  padding: 8px 13px;
+  padding: 2px 13px;
   margin-right: 6px;
   margin-bottom: 6px;
   display: block;
@@ -456,7 +460,7 @@ h4 {
   text-decoration: none;
   border-bottom: 1px solid #eeeeee;
   display: block;
-  padding: 16px 0;
+  padding: 11px 0;
 }
 
 .themes a:hover {
@@ -490,7 +494,7 @@ sup {
 .store_title {
   text-align: center;
   text-transform: uppercase;
-  margin-bottom: 44px;
+  margin-bottom: 4px;
 }
 
 .store_title::after {
@@ -505,7 +509,7 @@ sup {
 
 .store_description {
   border: 3px solid #d5c9a3;
-  padding: 52px 12px 35px;
+  padding: 52px 10px 28px;
   display: flex;
   flex-wrap: wrap;
   flex-direction: column;
@@ -515,12 +519,12 @@ sup {
   text-transform: uppercase;
   font-weight: bold;
   font-size: 20px;
-  margin-top: 10px;
+  margin-top: 18px;
 }
 
 .store_text {
   font-size: 15px;
-  margin: 12px 0;
+  margin: 5px 0 28px;
 }
 
 .store_text a {
@@ -561,7 +565,7 @@ sup {
   font-size: 14px;
   text-transform: uppercase;
   font-weight: bold;
-  padding: 18px 25px;
+  padding: 14px 30px;
 }
 
 .store_button:hover {
@@ -575,7 +579,7 @@ sup {
 .footer {
   background-color: #f4f7f6;
   margin: 0 auto;
-  padding: 40px 0;
+  padding: 24px 0;
   display: flex;
   flex-wrap: wrap;
   align-items: center;
@@ -599,7 +603,7 @@ sup {
   background-size: cover;
   background-repeat: no-repeat;
   color: transparent;
-  margin-right: 30px;
+  margin-right: 22px;
 }
 
 .twitter {
@@ -799,7 +803,7 @@ sup {
   }
 
   .main {
-    margin-left: 15px;
+    /* margin-left: 15px; */
     margin-right: 120px;
     width: 778px;
   }
@@ -832,7 +836,7 @@ sup {
   }
 
   .text {
-    margin-top: 52px;
+    margin-top: 45px;
   }
 
   .aside {
