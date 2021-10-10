@@ -873,15 +873,24 @@ sup {
   .header {
     background-image: url("../images/banner-bg-tablet.jpg");
     max-width: 1200px;
+	padding: 40px 15px 120px;
   }
 
-  .top {
-    width: 90%;
-  }
 
   .logo_mob {
     display: none;
   }
+
+h1 {
+	font-size: 38px; 
+	line-height: normal;
+	}
+.trend_title {
+	margin-top: 40px;
+	margin-bottom: 20px;
+	}
+	
+	.trend h2 {font-size: 18px;}
 
   .main {
     margin-right: 5%;
@@ -889,6 +898,9 @@ sup {
 
   .content {
     max-width: 1200px;
+	padding-left: 30px;
+	padding-right: 30px;
+	margin-bottom:40px;
   }
 
   .nav {
@@ -901,31 +913,36 @@ sup {
     padding: 20px;
   }
 
-  .item:nth-child(1) {
-    margin-right: 0.5%;
-    margin-bottom: 0.5%;
+  .item:nth-child(3) {
+    margin-top: 0.5%;
   }
 
   .item:nth-child(4) {
-    margin-left: 0.5%;
+	margin-top: 0.5%;
   }
 
   .meta {
-    margin-top: 13px;
+    margin-top: 7px;
   }
+  
+  .post h2 {margin: 10px 0 25px 0; font-size: 18px;}
 
   .article {
     flex-wrap: wrap;
     border-bottom: 2px solid #eeeeee;
   }
+  
+  .article:nth-last-of-type(n + 2) {
+    margin-bottom: 35px;
+}
 
   .text {
-    margin-top: 32px;
-    margin-bottom: 23px;
+    margin-top: 28px;
+    margin-bottom: 18px;
   }
 
   .store_items {
-    margin-bottom: 50px;
+    margin-bottom: 40px;
   }
 
   .store_item {
@@ -942,6 +959,13 @@ sup {
   .store_image img {
     max-width: 275px;
   }
+    .store_description {
+	padding: 48px 30px 35px;}
+	
+  .store_description h3 {font-size: 18px; margin-top: 10px;}
+  
+  .footer {padding: 33px 0; margin: 0 30px;}
+  .copyright {margin-top: 43px;}
   /* .store-item::nth-child (1) {margin-right:3%;}  */
 }
 
