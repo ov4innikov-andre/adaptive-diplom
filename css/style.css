@@ -876,7 +876,7 @@ sup {
 	padding: 40px 15px 120px;
   }
 
-
+.heading {margin-top: 33px;}
   .logo_mob {
     display: none;
   }
@@ -899,6 +899,7 @@ h1 {
   .content {
     max-width: 1200px;
 	padding-left: 30px;
+	padding-top: 45px;
 	padding-right: 30px;
 	margin-bottom:40px;
   }
@@ -909,7 +910,6 @@ h1 {
 
   .item {
     width: 49.75%;
-    height: 319px;
     padding: 20px;
   }
 
@@ -926,7 +926,7 @@ h1 {
   }
   
   .post h2 {margin: 10px 0 25px 0; font-size: 18px;}
-
+.post item {margin-top: 57px;}
   .article {
     flex-wrap: wrap;
     border-bottom: 2px solid #eeeeee;
@@ -940,7 +940,9 @@ h1 {
     margin-top: 28px;
     margin-bottom: 18px;
   }
-
+.store {
+    padding: 0 30px;
+}
   .store_items {
     margin-bottom: 40px;
   }
@@ -960,7 +962,7 @@ h1 {
     max-width: 275px;
   }
     .store_description {
-	padding: 48px 30px 35px;}
+	padding: 60px 30px 28px;}
 	
   .store_description h3 {font-size: 18px; margin-top: 10px;}
   
