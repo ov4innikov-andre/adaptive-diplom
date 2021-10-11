@@ -1018,7 +1018,7 @@ h1 {
   }
 
   .main {
-    margin-bottom: 45px;
+    margin-bottom: 28px;
   }
   .logo_desk {
     display: none;
@@ -1041,16 +1041,21 @@ h1 {
     display: flex;
     flex-wrap: wrap;
     max-width: 640px;
+	padding-top: 40px;
   }
 .post h2 {font-size: 16px;margin-bottom: 18px;}
   .text {
     font-size: 14px;
     line-height: normal;
+	    margin-top: 12px;
+    margin-bottom: 36px;
 }
 
 .article:nth-last-of-type(n + 2) {
     margin-bottom: 15px;
 }
+
+.aside-title {font-size: 20px; margin-bottom: 12px;}
 
   .search label {
 	width:100%;
@@ -1059,6 +1064,7 @@ h1 {
   .field {
     width: 100%;
   }
+  .tags a {padding: 2px 12px;}
 
   .store {
     margin-top: 40px;
