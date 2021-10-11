@@ -992,7 +992,8 @@ h1 {
 	padding: 27px 15px 0;
   }
 	  
-	 .trend h2 {font-size: 16px; margin-top: 38px;}
+	 .trend h2 {font-size: 16px;}
+	 .trend_title {margin-top: 38px;}
   .article {
     flex-wrap: wrap;
     border-bottom: 2px solid #eeeeee;
@@ -1028,10 +1029,12 @@ h1 {
     margin-bottom: 1px;
   }
 
+.item_title {margin-top: 8px;}
   .post_item {
     width: 90%;
     margin-bottom: 14px;
     margin-top: 42px;
+	padding: 32px 18px 28px;
   }
 
   .content {
@@ -1039,7 +1042,7 @@ h1 {
     flex-wrap: wrap;
     max-width: 640px;
   }
-  .trend h2 {font-size: 16px;}
+
   .text {
     font-size: 14px;
     line-height: normal;
