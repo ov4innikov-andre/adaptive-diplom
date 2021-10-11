@@ -1033,7 +1033,7 @@ h1 {
   .post_item {
     width: 90%;
     margin-bottom: 14px;
-    margin-top: 42px;
+    margin-top: 72px;
 	padding: 32px 18px 28px;
   }
 
@@ -1042,11 +1042,16 @@ h1 {
     flex-wrap: wrap;
     max-width: 640px;
   }
-
+.post h2 {font-size: 16px;margin-bottom: 18px;}
   .text {
     font-size: 14px;
     line-height: normal;
 }
+
+.article:nth-last-of-type(n + 2) {
+    margin-bottom: 15px;
+}
+
   .search label {
 	width:100%;
   }
