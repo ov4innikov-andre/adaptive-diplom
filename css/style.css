@@ -1064,12 +1064,13 @@ h1 {
   .field {
     width: 100%;
   }
+  .tags {margin-bottom:34px;}
   .tags a {padding: 4px 12px;}
-.mobile_themes {margin-bottom:10px;}
+.themes a {padding: 10px 0;}
   .store {
     margin-top: 40px;
   }
-
+.store_title {font-size: 16px;}
   .store_image {
     margin-top: -305px;
   }
@@ -1085,11 +1086,11 @@ h1 {
   .store_item:nth-last-of-type(n + 2) {
     margin-bottom: 280px;
   }
-
+.store_description {padding-top: 42px;}
   .footer {
-    margin-top: 40px;
+    margin: 38px 15px;
   }
-
+.copyright {margin-top: 50px;}
   .popup {
     width: 90%;
   }
